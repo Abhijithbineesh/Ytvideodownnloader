@@ -17,7 +17,13 @@ A simple YouTube video and audio downloader built using **React**, **Node.js**, 
 
 ## Screenshots
 
+![Screenshot1](./screenshots/screenshot1.png)
+*Home Page*
 
+![Screenshot2](./screenshots/screenshot2.png)
+![Screenshot3](./screenshots/screenshot3.png)
+![Screenshot4](./screenshots/screenshot4.png)
+![Screenshot5](./screenshots/screenshot5.png)
 
 ## How to Use
 
