@@ -1,0 +1,132 @@
+/* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+#root {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input and Select styles */
+input:focus, select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+/* Button styles */
+button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+/* Loader styles */
+.loader {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Download result styles */
+.download-result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-result a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.download-result a:hover {
+    background-color: #1e7e34;
+}
+
+.error {
+    color: #d9534f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, select, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .download-result a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
